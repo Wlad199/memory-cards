@@ -1,14 +1,18 @@
-# vue-project
+# Vue 3 memory-cards
 
-This template should help get you started developing with Vue 3 in Vite.
+  
+Application for creating and saving cards
 
-## Recommended IDE Setup
+  
+- Add and remove cards
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Ask question and show answer
 
-## Customize configuration
+- Save cards to local storage
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+
+  
+`<img src="./public/memory-cards.png width="400" />`
 
 ## Project Setup
 
