@@ -12,7 +12,7 @@ Application for creating and saving cards
 
 
   
-`<img src="./public/memory-cards.png width="400" />`
+<img src="./public/memory-cards.png" width="400" />
 
 ## Project Setup
 
