@@ -27,32 +27,7 @@ const saveCardsToLocalStorage = () => {
 	localStorage.setItem('cards', JSON.stringify(cardsData.value))
 }
 
-const cardsData = ref([
-	//{
-	//	question: 'What must a variable begin with?',
-	//	answer: 'A letter, $ or _',
-	//	id: 1,
-	//	isActive: true,
-	//	isShown: false,
-	//	isPrevious: false
-	//},
-	//{
-	//	question: 'What is a variable?',
-	//	answer: 'Container for a piece of data',
-	//	id: 2,
-	//	isActive: false,
-	//	isShown: false,
-	//	isPrevious: false
-	//},
-	//{
-	//	question: 'Example of Case Sensitive Variable',
-	//	answer: 'thisIsAVariable',
-	//	id: 3,
-	//	isActive: false,
-	//	isShown: false,
-	//	isPrevious: false
-	//}
-])
+const cardsData = ref([])
 
 let currentActiveCard = ref(0)
 
